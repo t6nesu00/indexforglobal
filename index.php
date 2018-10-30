@@ -19,7 +19,7 @@
 		<header>
 			
 			<nav class="navbar navbar-light">
-			  <a class="navbar-brand" href="index.html">
+			  <a class="navbar-brand" href="index.php">
 			    <img src="https://static.wixstatic.com/media/84770f_cf7bc4687a4348be94b1315766e2693f.png/v1/fill/w_50,h_71,al_c,lg_1,q_80/84770f_cf7bc4687a4348be94b1315766e2693f.webp" style="width: 40px; height: 59px; object-fit: contain;">
 			    <h1 style="float: right">LIFESADVENTURE</h1>
 			  </a>
@@ -33,7 +33,7 @@
 			  </button>
 			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			    <div class="navbar-nav">
-			      <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+			      <a class="nav-item nav-link active" href="index.php">HOME <span class="sr-only">(current)</span></a>
 			      <a class="nav-item nav-link" href="#">DISCOVER</a>
 			      <a class="nav-item nav-link" href="#">DESTINATIONS</a>
 			      <a class="nav-item nav-link disabled" href="#">ADVENTURES</a>
@@ -55,9 +55,17 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="image2.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+	    <h5>Hello</h5>
+	    <p>World</p>
+  </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="image3.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+	    <h5>Hello</h5>
+	    <p>World</p>
+  </div>
     </div>
     
   </div>
