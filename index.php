@@ -44,10 +44,21 @@
 			    <div class="navbar-nav">
 			      <a class="nav-item nav-link active" href="index.php">HOME <span class="sr-only">(current)</span></a>
 			      <a class="nav-item nav-link" href="#">DISCOVER</a>
-			      <a class="nav-item nav-link" href="#">DESTINATIONS</a>
-			      <a class="nav-item nav-link disabled" href="#">ADVENTURES</a>
-			      <a class="nav-item nav-link disabled" href="#">ACCOMMODATION</a>
-			      <a class="nav-item nav-link disabled" href="#">ABOUT</a>
+			      <!--<a class="nav-item nav-link" href="#">DESTINATIONS</a>-->
+			      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dropdown
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Destination 1</a>
+				          <a class="dropdown-item" href="#">Destination2</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Your Own Selection</a>
+				        </div>
+				    </li>
+			      <a class="nav-item nav-link" href="#">ADVENTURES</a>
+			      <a class="nav-item nav-link" href="#">ACCOMMODATION</a>
+			      <a class="nav-item nav-link" href="#">ABOUT</a>
 			    </div>
 			  </div>
 			</nav>
@@ -201,19 +212,14 @@
 
 				<p class="footer-links">
 					<a href="#">Home</a>
-					·
-					<a href="#">Blog</a>
-					·
-					<a href="#">Pricing</a>
+
 					·
 					<a href="#">About</a>
-					·
-					<a href="#">Faq</a>
 					·
 					<a href="#">Contact</a>
 				</p>
 
-				<p class="footer-company-name">Company Name &copy; 2015</p>
+				<p class="footer-company-name">LIFESADVENTURE</p>
 
 				<div class="footer-icons">
 
