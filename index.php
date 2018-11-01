@@ -7,7 +7,9 @@
 		index page
 	</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
@@ -23,7 +25,14 @@
 			    <img src="https://static.wixstatic.com/media/84770f_cf7bc4687a4348be94b1315766e2693f.png/v1/fill/w_50,h_71,al_c,lg_1,q_80/84770f_cf7bc4687a4348be94b1315766e2693f.webp" style="width: 40px; height: 59px; object-fit: contain;">
 			    <h1 style="float: right">LIFESADVENTURE</h1>
 			  </a>
+
+		<div class="loginL" style="float: right;">
+				<a href="#">
+					<h4><i class="fas fa-user-circle"></i>Log In</h4>	
+				</a>		
+		</div>
 			</nav>
+
 			
 					
 			<nav class="navbar navbar-expand-lg navbar-light">
@@ -43,7 +52,6 @@
 			  </div>
 			</nav>
 			
-
 		</header>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -78,8 +86,9 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<br>
 
-<h1>multi carousel goes here.</h1>
+<h1>Our Recommends</h1>
 
 
 <!--multi carousel starts here-->
@@ -133,24 +142,35 @@
     	<div class="row">
     		<div class="col-lg-4">
     			<img class="d-block w-100" src="./images/four.jpeg" alt="Second slide">
-      		<div class="carousel-caption d-none d-md-block">
-	    		<h5>Hello</h5>
-	    		<p>World two</p>
-  			</div>
+      		
+	    		<div class="card-body">
+            		<h4 class="card-title">Card title</h4>
+            		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            		<a class="btn btn-primary">Button</a>
+          		</div>
+  			
     		</div>
     		<div class="col-lg-4">
     			<img class="d-block w-100" src="./images/five.jpeg" alt="Second slide">
-      		<div class="carousel-caption d-none d-md-block">
-	    		<h5>Hello</h5>
-	    		<p>World two</p>
-  			</div>
+      		
+					<div class="card-body">
+		            <h4 class="card-title">Card title</h4>
+		            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+		              card's content.</p>
+		            <a class="btn btn-primary">Button</a>
+		          </div>
+  			
     		</div>
     		    		<div class="col-lg-4">
     			<img class="d-block w-100" src="./images/six.jpeg" alt="Second slide">
-      		<div class="carousel-caption d-none d-md-block">
-	    		<h5>Hello</h5>
-	    		<p>World two</p>
-  			</div>
+					<div class="card-body">
+			            <h4 class="card-title">Card title</h4>
+			            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+			              card's content.</p>
+			            <a class="btn btn-primary">Button</a>
+			          </div>
+  			
     		</div>
     	</div>	
    </div>
@@ -171,10 +191,56 @@
 	</div>
 	
 </div>
-
-
-
 <!--multi carousel ends here-->
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Company<span>logo</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Blog</a>
+					·
+					<a href="#">Pricing</a>
+					·
+					<a href="#">About</a>
+					·
+					<a href="#">Faq</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Company Name &copy; 2015</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#"><i class="fab fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact Us</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+
+		</footer>
 
 
 
