@@ -99,6 +99,11 @@
 </div>
 <br>
 
+<div class="registerLink">
+	<a href="#"><h1>START YOUR ADVENTURE HERE <i class="far fa-arrow-alt-circle-right"></i></h1></a>
+</div>
+<br>
+
 <h1>Our Recommends</h1>
 
 
