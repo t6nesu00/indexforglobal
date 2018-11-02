@@ -217,6 +217,8 @@
 					<a href="#">About</a>
 					·
 					<a href="#">Contact</a>
+					.
+					<a href="partners.php">Our Partners</a>
 				</p>
 
 				<p class="footer-company-name">LIFESADVENTURE</p>
